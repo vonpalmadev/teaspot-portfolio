@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TeaSpot is a fictional milk tea shop website demo featuring drinks, prices, and contact details.">
+  <title>TeaSpot | Milk Tea & Good Vibes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="TeaSpot home"><span class="brand-mark">t</span><span>tea<span class="brand-dot">spot.</span></span></a>
+      <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#menu">Menu</a>
+        <a href="#about">Our story</a>
+        <a href="#visit">Find us</a>
+        <a class="nav-cta" href="#menu">Explore drinks <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> A LITTLE SIP OF HAPPINESS</p>
+          <h1>Your mood.<br><span>Your milk tea.</span></h1>
+          <p class="hero-text">Creamy classics, fruity favorites, and chewy pearls made for your everyday treat.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#menu">See our menu <span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="#visit">Visit us <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note"><span class="note-icon">✦</span><p><strong>Made for your kind of day</strong><br><span>Pick a flavor and make it yours.</span></p></div>
+        </div>
+        <div class="hero-art" aria-label="Decorative illustration of milk tea cups">
+          <div class="blob blob-back"></div>
+          <div class="sparkle sparkle-one">✦</div><div class="sparkle sparkle-two">✧</div>
+          <div class="cup cup-one"><div class="cup-lid"></div><div class="cup-straw"></div><div class="cup-label">TEA<br><b>SPOT</b></div><div class="pearls">● ●<br> ● ● ●</div></div>
+          <div class="cup cup-two"><div class="cup-lid"></div><div class="cup-straw"></div><div class="cup-label">GOOD<br><b>VIBES</b></div><div class="pearls">● ● ●<br> ● ●</div></div>
+          <div class="art-caption">sip • smile • repeat</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">THE CROWD FAVORITES</p><h2>Find your <span>new favorite.</span></h2></div>
+          <p class="section-intro">A few good reasons to take a little break. Choose your flavor and make your day sweeter.</p>
+        </div>
+        <div class="menu-grid">
+          <article class="drink-card">
+            <div class="drink-art drink-brown"><span class="drink-emoji">🧋</span><span class="drink-tag">BESTSELLER</span></div>
+            <div class="drink-info"><div class="drink-title"><h3>Classic Pearl Milk Tea</h3><strong>₱89</strong></div><p>Rich milk tea with chewy tapioca pearls.</p></div>
+          </article>
+          <article class="drink-card">
+            <div class="drink-art drink-pink"><span class="drink-emoji">🍓</span><span class="drink-tag">FRUITY</span></div>
+            <div class="drink-info"><div class="drink-title"><h3>Strawberry Milk</h3><strong>₱99</strong></div><p>Sweet strawberry flavor with creamy milk.</p></div>
+          </article>
+          <article class="drink-card">
+            <div class="drink-art drink-green"><span class="drink-emoji">🍵</span><span class="drink-tag">TEA TIME</span></div>
+            <div class="drink-info"><div class="drink-title"><h3>Matcha Milk Tea</h3><strong>₱109</strong></div><p>Smooth matcha with a mellow, earthy taste.</p></div>
+          </article>
+        </div>
+        <p class="menu-note">Sample menu and prices for portfolio demonstration only.</p>
+      </div>
+    </section>
+
+    <section class="section story-section" id="about">
+      <div class="container story-grid">
+        <div class="story-art"><div class="story-circle"><span class="story-star">✦</span><div class="mini-cup"><div class="mini-lid"></div><div class="mini-straw"></div><div class="mini-pearls">● ● ●<br> ● ●</div></div><span class="circle-text">YOUR DAILY LITTLE TREAT</span></div></div>
+        <div class="story-copy"><p class="eyebrow">HELLO, TEA LOVER</p><h2>Good drinks.<br><span>Good moments.</span></h2><p>TeaSpot is a fictional milk tea brand created to show how a small drink shop could present its menu and business details online. Replace this section with the real shop's story, bestsellers, and what makes it special.</p><ul class="check-list"><li><span>✓</span> A menu customers can check anytime</li><li><span>✓</span> Clear prices and drink descriptions</li><li><span>✓</span> Easy-to-find shop details</li></ul><a class="text-link" href="#visit">Come say hello <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="visit-section section" id="visit">
+      <div class="container visit-panel">
+        <div><p class="eyebrow">COME HANG OUT</p><h2>Your next sip<br><span>is waiting.</span></h2><p class="visit-text">Drop in for your favorite drink, or message us to ask about the menu.</p></div>
+        <div class="visit-details">
+          <div class="detail-row"><span class="detail-icon">⌖</span><div><small>FIND OUR SHOP</small><strong>Enter your business address here</strong></div></div>
+          <div class="detail-row"><span class="detail-icon">◷</span><div><small>OPENING HOURS</small><strong>Mon–Sat · 10:00 AM–8:00 PM</strong></div></div>
+          <a class="button button-light" id="contactLink" href="https://m.me/" target="_blank" rel="noopener noreferrer">Message us <span aria-hidden="true">↗</span></a>
+          <p class="demo-note">Fictional business demo. Update the address, hours, menu, and contact link before using this design for a real business.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">t</span><span>tea<span class="brand-dot">spot.</span></span></a><p>Fictional portfolio demo · Made with HTML, CSS & JavaScript</p><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+</body>
+</html>
